@@ -39,7 +39,7 @@ function init() {
 
     //Setup IFC Loader
     const ifcLoader = new IFCLoader();
-    ifcLoader.ifcManager.setWasmPath( './wasm' );
+    ifcLoader.ifcManager.setWasmPath( './' );
     ifcLoader.load( './ifc/rac_advanced_sample_project.ifc', function ( model ) {
 
         scene.add( model.mesh );

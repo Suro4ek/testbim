@@ -1,7 +1,7 @@
 import {OrbitControls} from './src/jsm/controls/OrbitControls.js'
 import * as THREE from './src/three.module.js';
 
-import { IFCLoader } from './src/jsm//loaders/IFCLoader.js';
+import { IFCLoader } from './src/jsm/loaders/IFCLoader.js';
 
 let scene, camera, renderer;
 

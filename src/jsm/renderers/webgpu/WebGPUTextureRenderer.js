@@ -1,4 +1,4 @@
-import { WebGLRenderTarget } from '../../../three.module.js';
+import { WebGLRenderTarget } from 'three';
 
 class WebGPUTextureRenderer {
 

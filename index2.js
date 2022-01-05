@@ -19,11 +19,6 @@ function init() {
     camera.position.y = 25;
     camera.position.x = 90;
 
-    //Initial cube
-    const geometry = new THREE.BoxGeometry();
-    const material = new THREE.MeshPhongMaterial( { color: 0xffffff } );
-    const cube = new THREE.Mesh( geometry, material );
-    scene.add( cube );
 
     //Lights
     const directionalLight1 = new THREE.DirectionalLight( 0xffeeff, 0.8 );

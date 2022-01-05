@@ -1,7 +1,7 @@
 import {OrbitControls} from 'https://unpkg.com/three@0.127.0/examples/jsm/controls/OrbitControls.js'
 import * as THREE from 'https://unpkg.com/three@0.127.0/build/three.module.js';
 
-import { IFCLoader } from 'https://unpkg.com/browse/three@0.136.0/examples/jsm/loaders/IFCLoader.js';
+import { IFCLoader } from 'https://unpkg.com/three@0.127.0/examples/jsm/loaders/IFCLoader.js';
 
 let scene, camera, renderer;
 

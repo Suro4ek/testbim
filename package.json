@@ -1,0 +1,25 @@
+{
+  "name": "asdasd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suro4ek/testbim.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suro4ek/testbim/issues"
+  },
+  "homepage": "https://github.com/Suro4ek/testbim#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "three": "^0.136.0"
+  }
+}

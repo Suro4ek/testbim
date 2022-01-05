@@ -1,7 +1,7 @@
-import {OrbitControls} from 'https://unpkg.com/three@0.127.0/examples/jsm/controls/OrbitControls.js'
-import * as THREE from 'https://unpkg.com/three@0.127.0/build/three.module.js';
+import {OrbitControls} from './src/jsm/controls/OrbitControls.js'
+import * as THREE from './src/three.module.js';
 
-import { IFCLoader } from 'https://unpkg.com/three@0.127.0/examples/jsm/loaders/IFCLoader.js';
+import { IFCLoader } from './src/jsm//loaders/IFCLoader.js';
 
 let scene, camera, renderer;
 
@@ -39,8 +39,8 @@ function init() {
 
     //Setup IFC Loader
     const ifcLoader = new IFCLoader();
-    ifcLoader.ifcManager.setWasmPath( 'https://unpkg.com/three@0.127.0/examples/jsm/loaders/ifc/' );
-    ifcLoader.load( 'models/ifc/rac_advanced_sample_project.ifc', function ( model ) {
+    ifcLoader.ifcManager.setWasmPath( './wasm' );
+    ifcLoader.load( './ifc/rac_advanced_sample_project.ifc', function ( model ) {
 
         scene.add( model.mesh );
         render();
